@@ -1,0 +1,34 @@
+.Profile-info {
+  margin-top: 30px;
+}
+
+.Review {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-left: 4px solid #2196f3; /* Blue border on the left */
+  background-color: #f9f9f9; /* Light gray background */
+}
+
+.Review p {
+  margin-bottom: 5px;
+}
+
+.Review .reviewer {
+  font-weight: bold;
+}
+
+.Review .position {
+  font-style: italic;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+  .Profile-info {
+    margin-top: 15px; /* Reduce top margin for smaller screens */
+  }
+
+  .Review {
+    padding: 8px; /* Adjust padding for smaller screens */
+    margin-bottom: 15px; /* Adjust margin for smaller screens */
+  }
+}
